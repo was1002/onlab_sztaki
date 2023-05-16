@@ -12,6 +12,7 @@ ZONE_POLYGON = np.array([
     [0.2, 0.8]
 ])
 
+
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="YOLOv8 live")
     parser.add_argument(
